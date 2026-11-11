@@ -1,0 +1,20 @@
+{
+  "name": "staffroom",
+  "version": "0.1.0",
+  "description": "NSW secondary teaching skills: lessons and slides, units, assessment, and materials derived from what was taught.",
+  "author": {
+    "name": "Lutra-Fs"
+  },
+  "repository": "https://github.com/Lutra-Fs/teaching-skills",
+  "license": "CC-BY-NC-SA-4.0 AND MIT",
+  "keywords": [
+    "teaching",
+    "nsw",
+    "lesson-planning",
+    "assessment",
+    "secondary"
+  ],
+  "skills": [
+    "./skills/plan-secondary-teaching"
+  ]
+}

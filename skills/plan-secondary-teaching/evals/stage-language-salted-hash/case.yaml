@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: stage-language-salted-hash
+expected_outcome: |
+  Two 3-slide sets whose language visibly differs by Stage.
