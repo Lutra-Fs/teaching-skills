@@ -7,6 +7,9 @@ Agent skills for secondary teaching in New South Wales. They work from the schoo
 | Skill | Use it for |
 |---|---|
 | `plan-secondary-teaching` | Lessons and slides, units and pacing, assessment and marking, syllabus lookup, and materials derived from an existing lesson (practice sheets, versions, quizzes, marking guides). Deep support for Mathematics 7-12 and TAS courses. |
+| `relief-teaching` | Relief days from both sides: covering someone else's class as a casual (day sheet, no-plan lesson, handover note), and leaving your own class for a reliever (relief pack). |
+| `accreditation-evidence` | NESA Proficient Teacher accreditation read against the AITSL Standards: evidence log, choosing and annotating 5-8 items, coverage, observation, deadlines. |
+| `report-comments` | Report comments from the teacher's own grades and observations, to NSW Department of Education guidance and the NESA grade scales. |
 
 ## Install
 

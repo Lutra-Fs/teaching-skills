@@ -1,14 +1,22 @@
 {
   "name": "lutra-teaching",
-  "owner": { "name": "Lutra-Fs" },
+  "owner": {
+    "name": "Lutra-Fs"
+  },
   "description": "Agent skills for NSW secondary teaching: planning, resources and assessment grounded in the school's adopted syllabus.",
   "plugins": [
     {
       "name": "staffroom",
       "source": "./",
-      "description": "NSW secondary teaching skills: lessons and slides, units, assessment, and materials derived from what was taught.",
+      "description": "NSW secondary teaching skills: lessons and units, assessment, derived materials, relief days, accreditation evidence and report comments.",
       "category": "education",
-      "keywords": ["teaching", "nsw", "lesson-planning", "assessment", "secondary"]
+      "keywords": [
+        "teaching",
+        "nsw",
+        "lesson-planning",
+        "assessment",
+        "secondary"
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "staffroom",
-  "version": "0.1.0",
-  "description": "NSW secondary teaching skills: lessons and slides, units, assessment, and materials derived from what was taught.",
+  "version": "0.2.0",
+  "description": "NSW secondary teaching skills: lessons and units, assessment, derived materials, relief days, accreditation evidence and report comments.",
   "author": {
     "name": "Lutra-Fs"
   },
@@ -15,6 +15,9 @@
     "secondary"
   ],
   "skills": [
-    "./skills/plan-secondary-teaching"
+    "./skills/plan-secondary-teaching",
+    "./skills/relief-teaching",
+    "./skills/accreditation-evidence",
+    "./skills/report-comments"
   ]
 }
