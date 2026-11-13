@@ -27,7 +27,3 @@ The minutes must add up to the period. Stop point if time runs short (before the
 ## Only when required
 
 Outcome mapping, rationale, QTM or APST notes, mentor sign-off: add these when the school or university asks for them. APST is written as targets (for example `targets 3.2.1`).
-
-## After teaching
-
-Two or three lines: how far the class got, what is unresolved, what changes next lesson. Keep observed facts separate from interpretation.
