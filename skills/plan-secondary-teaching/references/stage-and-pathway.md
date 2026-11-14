@@ -6,10 +6,10 @@ Use this reference for Stage emphasis, Life Skills, VET and requests outside the
 
 Deep support is limited to Mathematics and the TAS courses with their own card in `courses/` (see `courses/tas-common.md`).
 
-- Another TAS course is `extension`: draft from its locked syllabus and leave specialist safety controls to the school. Another KLA is `out_of_scope`.
+- Another TAS course is `specialist-unchecked`: draft from its locked syllabus and leave specialist safety controls to the school. Another KLA is `out_of_scope`.
 - For an interdisciplinary task, plan only the supported Mathematics/TAS lane and preserve any supplied partner-subject constraints. Require a subject specialist to confirm the other lane.
-- Food Technology is an `extension` route governed by `courses/tas-extension.md`, not a generic other-subject route.
-- VET is a separate authority workflow, not an extension of the generic assessment pack.
+- Food Technology is a `specialist-unchecked` route governed by `courses/tas-other.md`, not a generic other-subject route.
+- VET is a separate authority workflow, not a variant of the generic assessment pack.
 
 ## Stage/cohort emphasis
 
@@ -90,4 +90,4 @@ Use a common learning goal where appropriate and vary:
 - complexity, depth and independence;
 - product mode only when it preserves the construct.
 
-Consider tiering a task when the class evidence shows a spread: one learning intention, with support, core and extension entry points that differ in scaffolding, complexity or independence. Tiering and the four support routes are set out in `scaffolding-differentiation.md`; follow the school or university template where it fixes the format.
+Consider tiering a task when the class evidence shows a spread: one learning intention, with support, core and stretch entry points that differ in scaffolding, complexity or independence. Tiering and the four support routes are set out in `scaffolding-differentiation.md`; follow the school or university template where it fixes the format.

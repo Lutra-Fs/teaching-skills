@@ -113,7 +113,7 @@ Use honest resolution: precise near-term lessons, coarser later lessons.
 
 Apply the pacing-conflict procedure in references/continuity-progression.md. Do not silently shift the semester sequence or shorten every activity to make it fit.
 
-## 7. Access, differentiation and extension
+## 7. Access, differentiation and stretch
 
 | Learner evidence/barrier | Universal design or differentiation | Confirmed adjustment | Construct retained | Evidence of effect |
 |---|---|---|---|---|

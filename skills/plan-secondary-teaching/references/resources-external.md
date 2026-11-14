@@ -4,7 +4,7 @@ Read when scouting supporting material for a new lesson, when selecting or mater
 
 ## Scouting supporting material
 
-For a lesson taught for the first time, or when the teacher asks, go and look for material that connects the core concept to students' own lives. Scout before writing the blueprint, show the teacher the candidates, and wait: the teacher decides which to use, or none, and the blueprint is written around that choice.
+For a lesson taught for the first time, or when the teacher asks, go and look for material that connects the core concept to students' own lives. Scout before writing the blueprint, show the teacher the candidates, and wait: the teacher decides which to use, or none, and the blueprint is written around that choice. In a run with nobody to answer, follow `workflow-lesson.md` section 1 step 5.
 
 | Stage | Look first for | How students use it |
 |---|---|---|
@@ -19,7 +19,7 @@ For a lesson taught for the first time, or when the teacher asks, go and look fo
 - When nothing suitable turns up for a kind, say so and move on.
 - A chosen candidate then passes the gate below, has its facts checked and dated, and has its full time counted in the period.
 
-**Done when** each kind that fits the lesson has candidates or a stated "none found", every candidate names the segment it replaces, and the teacher has answered.
+**Done when** each kind that fits the lesson has candidates or a stated "none found", every candidate names the segment it replaces, and the teacher has answered, or the choice is listed as an assumption in an unattended run.
 
 ## Computing disciplinary literacy for AI-generated and interactive texts
 
@@ -31,7 +31,7 @@ Treat AI output as material to evaluate, not as automatically false or authorita
 
 For a newly selected or materially changed platform/textbook/resource, check the relevant fields below. Reuse established alignment and access records for unchanged resources; expose only adaptations and unresolved issues:
 
-1. Purpose: model, guided practice, independent practice, retrieval, diagnosis, assessment, extension or project stimulus.
+1. Purpose: model, guided practice, independent practice, retrieval, diagnosis, assessment, stretch or project stimulus.
 2. Exact NESA/school alignment and any mismatch.
 3. Disciplinary/cognitive demand and evidence revealed.
 4. Accessibility, scaffold purpose, contingency/fading and construct preservation.

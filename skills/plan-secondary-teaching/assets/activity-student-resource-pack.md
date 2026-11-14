@@ -78,12 +78,12 @@ Attach an answer key, worked solution, model, rubric excerpt or expected-respons
 | Cleanup/pack-up | |
 | Low-tech/resource-failure backup | |
 
-## 5. Access, adjustment and extension
+## 5. Access, adjustment and stretch
 
 - Target cognition/construct:
 - Intellectual decisions students must retain:
 
-| Barrier/current evidence | Hard resource + responsive teacher move | Intensify/change/fade trigger | Independent/transfer evidence | Confirmed adjustment / extension |
+| Barrier/current evidence | Hard resource + responsive teacher move | Intensify/change/fade trigger | Independent/transfer evidence | Confirmed adjustment / stretch |
 |---|---|---|---|---|
 | | | | | |
 

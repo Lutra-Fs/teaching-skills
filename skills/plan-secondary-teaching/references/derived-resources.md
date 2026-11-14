@@ -17,7 +17,7 @@ Read when the teacher wants material made from something that already exists: a 
 - Deliver two files. The student version has the questions. The teacher version adds worked answers, the point each mark is given for, accepted alternatives, banded descriptors for extended responses, and the source map.
 - For print layout, fill the school's template when one exists; otherwise hand the finished content to a document skill such as `kami`, with this default:
   - Name and date lines at the top; lettered sections with a heading each.
-  - The key term of each question in bold; the marks in brackets at the end of the question.
+  - The key term of each question in bold for Stages 5 and 6 (Stage 4 text carries no bold key words: `workflow-lesson.md` section 3); the marks in brackets at the end of the question.
   - Ruled answer lines, about two per mark and more for an extended response; a ruled table where the answer is a comparison or a matrix.
   - A scenario or case in a boxed panel directly above its questions.
   - Answers start on a new page: "1 mark for …" point by point, and a levels scheme (marks band, then what a response in that band does) for an extended response.
@@ -34,14 +34,14 @@ Versions share one learning intention, one stimulus and one look. Change one dim
 | Response mode | Written, annotated diagram, oral, table | The criterion being judged |
 
 - Choose versions from current class evidence and the barrier it shows (`scaffolding-differentiation.md`, Procedure). Label them by a task feature or a neutral mark, and assign them lesson by lesson.
-- An extension goes deeper: a transfer case, a justification, a trade-off.
+- A stretch version goes deeper: a transfer case, a justification, a trade-off.
 - After editing a question in one version, carry the edit to the other versions, the answers, the source map and any slide that refers to it, and list what you updated.
 
 ## 4. Quiz from taught content
 
 - Write items from the taught list. Pick each type for its job: multiple choice to diagnose a misconception, matching for term and function, ordering for a process, short answer for an explanation. Item rules are in `workflow-lesson.md` section 2.
 - For each item the teacher version records what it checks, the misconception each wrong option shows, and the teacher's next move.
-- For a quiz platform, fill the platform's own import template (the teacher profile names the file), then re-read the filled file: one correct answer flagged per item, text within the platform's length limits, a time limit set.
+- For a quiz platform, fill the platform's own import template (the teacher profile names the file), then re-read the filled file: one correct answer flagged per item (the whole correct set for a select-all item), text within the platform's length limits, a time limit set.
 
 ## 5. From results to the next lesson
 

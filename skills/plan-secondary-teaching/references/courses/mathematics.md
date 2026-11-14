@@ -21,7 +21,7 @@ For Mathematics K–10 (2022):
 - preserve the Stage 4/5 Core–Paths structure;
 - treat a Path as a flexible route through the content, revisited from evidence;
 - embed Working mathematically with the selected content outcome;
-- use formative evidence to determine progression, consolidation and extension;
+- use formative evidence to determine progression, consolidation and stretch;
 - keep Life Skills as a confirmed separate pathway.
 
 For Stage 6, resolve the exact course: Mathematics Standard Year 11 or, where applicable, Mathematics Standard 1 versus Standard 2 in Year 12; Advanced; Extension 1; Extension 2; Numeracy; or Life Skills. Then lock Year 11/12, syllabus version, assessment/reporting requirements, HSC examination/course specifications and the school schedule. Course content comes from the resolved course, since `Mathematics Standard` alone names several.
@@ -62,7 +62,7 @@ Prefer checks that expose thinking:
 - short independent problem and explanation;
 - exit response linked to the next lesson decision.
 
-Define the branch before teaching: what answer pattern triggers reteaching, regrouping, another representation or extension?
+Define the branch before teaching: what answer pattern triggers reteaching, regrouping, another representation or stretch?
 
 ## Stage 4–5 emphasis
 

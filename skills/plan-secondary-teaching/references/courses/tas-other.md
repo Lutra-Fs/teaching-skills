@@ -1,8 +1,8 @@
-# Other TAS courses (extension support)
+# Other TAS courses (specialist-unchecked support)
 
 Food Technology, Industrial Technology, Textiles Technology, Graphics Technology, Agricultural Technology, Engineering Studies and every other NESA TAS course without its own card, 7–10 or Stage 6.
 
-Lock the live syllabus (`../curriculum-lock.md`), inherit local material, and produce full drafts labelled `extension`, with outcome codes and course requirements taken from the locked syllabus. `extension` means aligned to the syllabus text but unchecked by a specialist, so list the checks still owed before classroom or formal-assessment use:
+Lock the live syllabus (`../curriculum-lock.md`), inherit local material, and produce full drafts labelled `specialist-unchecked`, with outcome codes and course requirements taken from the locked syllabus. The label means aligned to the syllabus text but unchecked by a specialist, so list the checks still owed before classroom or formal-assessment use:
 
 - exact course, cohort, syllabus version and school adoption evidence;
 - official outcomes, content, course requirements, assessment and record of changes;

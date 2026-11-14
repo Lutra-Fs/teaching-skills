@@ -1,6 +1,6 @@
 # Curriculum lock and official resources
 
-Read only when `_course_context.md` has no valid lock for this course, the cohort, term or syllabus version changed, or the teacher asks about currency or official resources. Once a lock is confirmed, record it in `_course_context.md` so later tasks reuse it instead of repeating this lookup.
+Read only when `_course_context.md` has no valid lock for this course, the cohort, term or syllabus version changed, the work needs syllabus wording the lock does not hold, or the teacher asks about currency or official resources. Once a lock is confirmed, record it in `_course_context.md` so later tasks reuse it instead of repeating this lookup.
 
 ## Contents
 

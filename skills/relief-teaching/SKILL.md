@@ -2,7 +2,7 @@
 name: relief-teaching
 description: "Relief lessons in NSW secondary schools, from either side. Cover: a casual or relief teacher taking someone else's class (reading the plan left, a class with no plan, the note left afterwards). Handover: a teacher leaving their own class for a reliever (sub plans, cover notes, a relief day pack). Use for \"I'm on a casual day at X\", \"no work was left\", \"I'm away tomorrow\" or \"write cover notes\"."
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # Relief Teaching
@@ -26,7 +26,7 @@ Decide the branch first: **Cover** when the user is the one walking into someone
 3. **No work left:** ask the faculty first; they usually hold emergency lessons. Otherwise build a single-period task from the class's year, subject and current topic (ask students what they did last lesson and check their books): retrieval questions on the last two weeks' work, then practice of the same kind as in their books, then a short written reflection. Each part on the board, timed. For TAS practical classes, no workshop, kitchen or machine work without the specialist teacher; give a design, theory or reading task instead.
 4. **During the lesson:** roll in the first five minutes in the school's system; seating plan if one exists; collect work as the pack says.
 5. **Leave a note** for the class teacher on `assets/handover-note.md`: what was done and how far each part got, absences and late arrivals, incidents with times and what you did, work collected and where, anything the next lesson must deal with. Keep it to facts; put it where the pack said, or on the teacher's desk and with the faculty head.
-6. **Keep the day for accreditation:** add a line to the teacher's day log (date, school, classes, days count). A provisionally or conditionally accredited casual teacher needs the teaching days and the evidence; `accreditation-evidence` turns the log into items.
+6. **Keep the day for accreditation:** add a line to the teacher's day log, `_accreditation/day-log.md` in the teacher's own folder (date, school, classes, days count). A provisionally or conditionally accredited casual teacher needs the teaching days and the evidence; `accreditation-evidence` turns the log into items.
 
 Done when the class is accounted for on the roll, the note is left, and the day is logged.
 
@@ -38,7 +38,7 @@ Done when the class is accounted for on the roll, the note is left, and the day 
 4. **Check** that a teacher from another faculty could run every lesson from the page, that every medical alert has a location and a trained person, and that the pack names a person to call, not just "the office".
 5. **Ask for the note back:** the pack ends with a request for the reliever's handover note, so the next lesson starts from what happened.
 
-Done when every period of the day has a block, the welfare section is complete or explicitly empty, and the four checks hold.
+Done when every period of the day has a block, the welfare section is complete or explicitly empty, and the three checks in step 4 hold.
 
 ## Sources
 

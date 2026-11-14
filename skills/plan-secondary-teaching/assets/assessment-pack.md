@@ -108,7 +108,7 @@ Do not select Life Skills or change the assessed construct through ordinary diff
 - On-balance judgement/reporting standard:
 - Misconception/skill-gap summary:
 - What was demonstrated independently, and what was demonstrated only with specified support:
-- Reteach/extension/program revision:
+- Reteach/stretch/program revision:
 
 ## 9. Optional Stage 6 formal-assessment module
 
@@ -134,4 +134,4 @@ Never import requirements from a related course without verification.
 |---|---|---|---|---|---|---|
 | | | | | | | |
 
-Separate observation from inference. Do not assign a formal grade, diagnostic label or high-stakes decision unless the authorised teacher has sufficient evidence and the applicable school/NESA process.
+Separate observation from inference. A grade given at the teacher's request is a labelled suggestion; the formal grade, any diagnostic label and any high-stakes decision are the authorised teacher's, made on sufficient evidence through the applicable school/NESA process.

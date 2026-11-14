@@ -12,8 +12,8 @@ When learning needs and the schedule conflict:
 
 1. Decide whether the gap blocks the next dependency, and for whom (whole class or a subset).
 2. Compare whole-class reteaching, targeted support, later retrieval or practice, a different explanation or resource, and removing non-essential overhead. Required content keeps real teaching and practice time.
-3. Recalculate against remaining time and fixed milestones. A stop point states what moves, what it displaces and whether the downstream obligation still fits.
-4. Apply authorised changes and update the affected materials. When the plan cannot fit, give the mentor or faculty owner the shortfall and concrete options, with requirements, revision time and deadlines intact.
+3. Recalculate against remaining time and fixed milestones. For each adjustment, show the time recovered or needed, what moves, what it displaces and which deadline or shared dependency it affects. Stage 6 deadlines are fixed; Stage 4 and 5 deadlines have limited room too.
+4. Apply authorised changes and update the affected materials; changes outside the teacher's authority go to the mentor or faculty owner as proposals. When the plan cannot fit, give that owner the shortfall and concrete options, with honest estimates, every content point accounted for, and requirements, revision time and deadlines intact.
 5. Update estimates from actual progress, faster or slower. Move the class on once the dependency is met; targeted support carries individual gaps.
 
 Stage shapes the trade-off: Stage 4 often warrants more foundation-building, Stage 5 balances consolidation, coverage and pathway preparation, and Stage 6, especially near an HSC deadline, protects complete required teaching and assessment preparation while scheduling targeted recovery. Every Stage still needs learning evidence and has course obligations.

@@ -43,7 +43,7 @@ formal domain/range notation. The exponential/reciprocal graphing advice notes
 that some students may benefit from understanding asymptotes without expecting
 that extension from everyone.
 
-Those scoped passages support distinguishing core expectations from extension.
+Those scoped passages support distinguishing core expectations from enrichment.
 They do not establish a ban on enrichment, a maximum number of mentions, or a
 course-wide closed vocabulary. Verify the current adopted passages before
 applying them to a new task, and cite the matching support when explaining a

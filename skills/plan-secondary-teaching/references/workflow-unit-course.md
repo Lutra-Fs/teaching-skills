@@ -16,9 +16,7 @@ Use for creating, adapting or auditing a unit or module sequence, and for course
 
 1. Read the adopted sequence, calendar, common assessment and project dates, and actual progress. Inspect only the horizon asked about.
 2. Keep one coverage view: required content not yet taught, taught content needing recovery, usable lessons remaining, protected assessment, practice and revision, real resource and safety dependencies, and a buffer. Content presented is not content learned.
-3. If on track, say so and return the allocation. If off track, identify the blocking gaps, compare recovery options, remove only non-essential overhead, and recalculate.
-4. Show the consequence of each adjustment: time recovered or needed, what moves, and which deadline or shared dependency it affects. Stage 6 deadlines are fixed; Stage 4 and 5 deadlines have limited room too.
-5. Apply authorised edits; present changes outside the teacher's authority as proposals for the mentor or faculty. If the plan cannot fit, show the shortfall with honest estimates and every content point accounted for.
+3. If on track, say so and return the allocation. If off track, run the conflict steps in `continuity-progression.md` (Pacing and recovery) and return what they settle: the adjustments applied, the proposals and any shortfall.
 
 ## Deliver
 

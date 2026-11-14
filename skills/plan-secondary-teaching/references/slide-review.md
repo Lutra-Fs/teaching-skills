@@ -9,7 +9,7 @@ Read before delivering or reviewing any slide deck, after `scripts/lint_slides.p
 - The slide holds only what the whole class needs to see now; what the student document or Classroom post already says stays there. (One deck shrank from 8 slides to 3.)
 - Reminders cover only what students must do themselves; the platform's automatic behaviour (Google Docs saving) needs none.
 - Headlines name the content ("Spotify: location and deleted accounts").
-- No kickers or secondary labels ("From Lesson 5:", a card label repeating the card); a term the cohort has not met is still defined on the slide.
+- No kickers or secondary labels ("From Lesson 5:", a card label repeating the card). Two labels stay: the "Extension" tag (section 2) and the formal-term label (section 5). A term the cohort has not met is still defined on the slide.
 - Sentences read as a person wrote them: keep "that" in object clauses; no stacked noun compounds, nouns used as verbs, inanimate subjects doing actions, long subject-verb gaps or paired slogans. Prefer a human subject. The mentor's own sentences and genre forms ("The app must …") stay.
 - Earlier lessons come back through the design: the same boxes lit up again on the familiar diagram.
 - The opening and closure formats differ from the previous two or three lessons, unless the notes give a learning reason.

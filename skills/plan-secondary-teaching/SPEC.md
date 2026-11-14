@@ -2,9 +2,9 @@
 
 ## Intent and shape
 
-Reduce preparation and review work by delivering course-aware, evidence-informed and operable teaching artifacts. Primary shape (v0.3.0): a short core (SKILL.md) that reads context and routes to one of four workflows (lesson, unit-course, assessment, sources); one card per course in references/courses/; deep references loaded only on their stated trigger; scripts for mechanical checks. The common path (a lesson) reads SKILL.md, teacher-profile, workflow-lesson and one course card, about 3,000 words. No service, agent delegation or provider-specific runtime is required.
+Reduce preparation and review work by delivering course-aware, evidence-informed and operable teaching artifacts. Primary shape (since v0.3.0): a short core (SKILL.md) that reads context and routes to one of four workflows (lesson, unit-course, assessment, sources); one card per course in references/courses/; deep references loaded only on their stated trigger; scripts for mechanical checks. The common path (a lesson) reads SKILL.md, teacher-profile, workflow-lesson and one course card, about 4,500 words. No service, agent delegation or provider-specific runtime is required.
 
-Scope remains NSW Mathematics 7–12 and the exact supported TAS courses declared in SKILL.md. Food Technology stays extension-only; unrelated teaching areas, placement administration, accreditation management and career work remain outside scope.
+Scope remains NSW Mathematics 7–12 and the exact supported TAS courses declared in SKILL.md. Food Technology stays `specialist-unchecked` only; unrelated teaching areas, placement administration, accreditation management and career work remain outside scope.
 
 ## Evidence and architecture
 
@@ -25,8 +25,8 @@ Compare prior and revised outputs under the same inputs and model when behaviour
 7. Official source lookup only: return compatible resources, no lesson pack.
 8. Food Technology / Life Skills / VET: retain support and authority boundaries.
 9. Required PST template: preserve fields; do not force all gradual-release phases into one lesson.
-10. Content exceeds one real period: split into consecutive single lessons, each with its own exit question; do not compress every phase or assume a double period.
-11. Lesson request without mention of slides: still deliver a followable deck with opening and exit; no slide previews later steps.
+10. Content exceeds one real period: split into consecutive single lessons, each with its own opening and closure; do not compress every phase or assume a double period.
+11. Lesson request without mention of slides: still deliver a followable deck with opening and closure; no slide previews later steps.
 12. Previous lesson unfinished: open with a brief recap only; do not reopen the previous activity.
 13. Review-only request: propose, do not edit; after approval re-check modified time and back up before writing.
 14. Same topic for Stage 4 and Stage 6: wording, term handling and question verbs differ visibly; a Stage 6 deck with childish register or untaught terms is caught and repaired.
@@ -56,4 +56,4 @@ Keep changes reversible with a pre-edit snapshot. Existing local source paths ar
 
 ## Material quality review acceptance
 
-Lesson, unit and assessment task workflows explicitly call the qualitative QTM-informed design/review/revision procedure. Findings must point to actual task evidence and the inherited purpose; repairs must preserve scope, conditions and course time. Fluency is not automatically a defect; absent QTM elements do not force added activities. Audit requests do not silently mutate files. Official coding remains a separate requested procedure. Static review of these rules is not empirical quality validation.
+Unit and assessment task workflows explicitly call the qualitative QTM-informed design/review/revision procedure; a lesson reaches it when designed from scratch. Findings must point to actual task evidence and the inherited purpose; repairs must preserve scope, conditions and course time. Fluency is not automatically a defect; absent QTM elements do not force added activities. Audit requests do not silently mutate files. Official coding remains a separate requested procedure. Static review of these rules is not empirical quality validation.

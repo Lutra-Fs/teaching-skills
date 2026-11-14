@@ -2,7 +2,7 @@
 name: plan-secondary-teaching
 description: "NSW secondary teaching for Mathematics and TAS courses (Software Engineering, Computing, Technology, D&T): lessons and slides, units and pacing, assessment and marking, syllabus lookup. Use whenever a teacher or pre-service teacher prepares, adapts or reviews teaching for a NSW class, including \"help with tomorrow's lesson\" or \"make the slides\"."
 metadata:
-  version: "0.8.0"
+  version: "0.8.1"
 ---
 
 # Plan Secondary Teaching
@@ -30,7 +30,7 @@ For a broad or unclear request, give a short readiness brief and the next decisi
 
 ## 3. Read the course card
 
-Resolve the exact course first: a technology context ("computing", "D&T", "timber") names a family, and each course has its own rules. Then read its card in `references/courses/`: `software-engineering.md`, `enterprise-computing.md`, `computing-technology-7-10.md`, `technology-7-8.md`, `design-technology.md`, `tas-extension.md` (Food, Industrial Technology and every other TAS course), `mathematics.md`, plus `maths-standard-advanced.md` for pitching across those courses. Read `tas-common.md` while the TAS course is still unresolved, or for project or assessment design.
+Resolve the exact course first: a technology context ("computing", "D&T", "timber") names a family, and each course has its own rules. Then read its card in `references/courses/`: `software-engineering.md`, `enterprise-computing.md`, `computing-technology-7-10.md`, `technology-7-8.md`, `design-technology.md`, `tas-other.md` (Food, Industrial Technology and every other TAS course), `mathematics.md`, plus `maths-standard-advanced.md` for pitching across those courses. Read `tas-common.md` while the TAS course is still unresolved, or for project or assessment design.
 
 ## 4. Load deep references on their trigger
 
@@ -39,8 +39,8 @@ Open a reference only when its row applies; skimming the others costs context an
 | Trigger | Read |
 |---|---|
 | `_course_context.md` has no valid curriculum lock, the cohort or version is new, the work needs syllabus wording the lock does not hold, or the teacher asks about currency | `references/curriculum-lock.md` |
-| A handoff between lessons or units matters, or an activity is replaced | `references/continuity-progression.md` |
-| A new task or unit designed from scratch, or a framework audit (UbD, QTM, WWB, APST) | `references/frameworks-quality.md` |
+| Unit sequencing or pacing, a handoff between lessons or units that matters, or a replaced activity | `references/continuity-progression.md` |
+| A lesson, task or unit designed from scratch, the review step of the unit or assessment workflow, or a framework audit (UbD, QTM, WWB, APST) | `references/frameworks-quality.md` |
 | A scaffolding, fading or differentiation decision | `references/scaffolding-differentiation.md` |
 | Any formal assessment, rubric or reporting | `references/assessment-reporting.md` |
 | Past or sample HSC papers, marking feedback | `references/hsc-exam-intelligence.md` |
@@ -55,6 +55,6 @@ Open a reference only when its row applies; skimming the others costs context an
 - **Safe writes:** before overwriting a teacher's file, have their approval, re-check its modified time immediately before writing and back it up. Teachers edit in Word during a session.
 - **Student and teacher material stay separate:** answers, expected responses and rationale live in teacher-only notes.
 - **Evidence honesty:** label each statement as a checked fact, a teacher choice, a proposal or an assumption. Learning, APST attainment and classroom quality are judged from observed teaching and student work, so a plan supports only "targets".
-- **Scope:** deep support covers Mathematics 7-12 and the TAS courses with their own card. Other TAS courses get `extension` drafts that list the specialist and WHS checks still owed. Reflection after a lesson is taught, relief days, accreditation evidence and report comments have their own skills: `lesson-retro`, `relief-teaching`, `accreditation-evidence`, `report-comments`. Other KLAs, VET competency assessment, placement admin, emails and university assignments go to their owner (`stage-and-pathway.md`).
+- **Scope:** deep support covers Mathematics 7-12 and the TAS courses with their own card. Other TAS courses get `specialist-unchecked` drafts that list the specialist and WHS checks still owed. Reflection after a lesson is taught, relief days, accreditation evidence and report comments have their own skills: `lesson-retro`, `relief-teaching`, `accreditation-evidence`, `report-comments`. Other KLAs, VET competency assessment, placement admin, emails and university assignments go to their owner (`stage-and-pathway.md`).
 
 Use anonymised learner information. Lead every reply with the requested decision or artifact, then the few assumptions and checks that matter.

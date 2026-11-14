@@ -44,7 +44,7 @@ Hard (resource) scaffolds are worked examples, completion problems, checklists, 
 
 - **Formative work:** dynamic support is expected; record its level so the evidence reads correctly.
 - **Summative or common tasks:** use the approved conditions and adjustments only. A scaffold that supplies a criterion-relevant decision changes what the result can show; record it.
-- **Tiering:** when class evidence shows a spread, keep one learning intention with support, core and extension entry points that differ in scaffolding, complexity or independence. Group flexibly from current evidence and name tiers by the task. To produce the versions as files, follow `derived-resources.md`. Life Skills, prior-stage access, reasonable adjustment and ordinary differentiation are four different routes; name the one that applies.
+- **Tiering:** when class evidence shows a spread, keep one learning intention with support, core and stretch entry points that differ in scaffolding, complexity or independence. Group flexibly from current evidence and name tiers by the task. To produce the versions as files, follow `derived-resources.md`. Life Skills, prior-stage access, reasonable adjustment and ordinary differentiation are four different routes; name the one that applies.
 - **Productive struggle** is a design choice inside adequate instruction, access and safety support.
 
 Research basis and its limits: SOURCES.md.

@@ -1,6 +1,6 @@
 # Teaching decisions and framework audits
 
-Read when designing a new task or unit from scratch, or when the teacher asks for a framework audit (UbD, QTM, WWB, UDL, APST). Apply the principles while designing; name a framework only when it explains a consequential choice or the teacher asked. NESA and the school program set the requirements; these frameworks inform how to meet them.
+Read when designing a lesson, task or unit from scratch, when the unit or assessment workflow reaches its review step, or when the teacher asks for a framework audit (UbD, QTM, WWB, UDL, APST). Apply the principles while designing; name a framework only when it explains a consequential choice or the teacher asked. NESA and the school program set the requirements; these frameworks inform how to meet them.
 
 ## Six design decisions
 
@@ -15,7 +15,7 @@ Read when designing a new task or unit from scratch, or when the teacher asks fo
 
 ## Design review
 
-Use for new or substantively changed lessons, units and assessment tasks; for a bounded edit, inspect the affected part and its dependencies.
+Use for a lesson designed from scratch and for new or substantively changed units and assessment tasks; for a bounded edit, inspect the affected part and its dependencies.
 
 1. **Set the purpose.** Name this artifact's role in the sequence (first explanation, fluency practice, consolidation, transfer or assessment) and judge it against that role.
 2. **Read the actual draft:** the student questions, examples, instructions, expected responses and criteria. For a unit outline, the planned evidence sequence and any anchor tasks; mark missing task materials as unverified.
