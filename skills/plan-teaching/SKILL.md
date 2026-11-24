@@ -2,7 +2,7 @@
 name: plan-teaching
 description: "NSW secondary teaching for Mathematics and TAS courses (Software Engineering, Computing, Technology, D&T): lessons and slides, units and pacing, assessment and marking, syllabus lookup. Use whenever a teacher or pre-service teacher prepares, adapts or reviews teaching for a NSW class, including \"help with tomorrow's lesson\" or \"make the slides\"."
 metadata:
-  version: "0.8.1"
+  version: "0.9.0"
 ---
 
 # Plan Teaching
@@ -11,8 +11,8 @@ Produce the teaching decision or the usable material the teacher asked for, insi
 
 ## 1. Read the context first
 
-1. `_teacher_profile.md` in or above the course folder: this teacher's standing preferences, learned from their corrections. It is the teacher's own file and stays out of this skill. When it is missing, offer to start one from `assets/teacher-profile-template.md`.
-2. `_course_context.md` in or above the lesson folder: school facts such as period length, timetable, mentor direction and the curriculum lock. `_brand/` beside it holds slide style.
+1. `_teacher_profile.md` in or above the course folder: where this teacher's practice differs from the defaults here, learned from their corrections. It is the teacher's own file and stays out of this skill. When it is missing, offer to start one from `assets/teacher-profile-template.md`.
+2. `_course_context.md` in or above the lesson folder: school facts such as period length, timetable, mentor direction and the curriculum lock. `_brand/` beside it or in a folder above holds slide style.
 3. The existing program, previous lessons and materials in the folder.
 
 School and mentor direction outrank the profile; the profile outranks generic defaults. When a fact that changes the plan is missing, ask once and offer to record the answer in `_course_context.md`, so the next task finds it there.
@@ -53,8 +53,9 @@ Open a reference only when its row applies; skimming the others costs context an
 - **Authority:** NESA sets requirements; the school's adopted syllabus version and the faculty program decide what is taught; the mentor decides how a lesson is run. Outcome codes come only from the locked syllabus. Describe work as "aligned to the selected syllabus and school program".
 - **Review means review:** a request to look at, check or audit something gets findings and proposed fixes; the teacher's files change only when they ask for the fix.
 - **Safe writes:** before overwriting a teacher's file, have their approval, re-check its modified time immediately before writing and back it up. Teachers edit in Word during a session.
+- **School policy first:** before a plan involves guests, contact with people outside the school, recording students, a new app or tool, or student data, look up the department or school policy and lead with who approves it, the screening and the lead time (NSW DoE online guest speakers need a verified WWCC and principal approval).
 - **Student and teacher material stay separate:** answers, expected responses and rationale live in teacher-only notes.
 - **Evidence honesty:** label each statement as a checked fact, a teacher choice, a proposal or an assumption. Learning, APST attainment and classroom quality are judged from observed teaching and student work, so a plan supports only "targets".
 - **Scope:** deep support covers Mathematics 7-12 and the TAS courses with their own card. Other TAS courses get `specialist-unchecked` drafts that list the specialist and WHS checks still owed. Reflection after a lesson is taught, relief days, accreditation evidence and report comments have their own skills: `lesson-retro`, `relief-teaching`, `accreditation-evidence`, `report-comments`. Other KLAs, VET competency assessment, placement admin, emails and university assignments go to their owner (`stage-and-pathway.md`).
 
-Use anonymised learner information. Lead every reply with the requested decision or artifact, then the few assumptions and checks that matter.
+Use anonymised learner information. Lead every reply with the requested decision or artifact, then the few assumptions and checks that matter. Asked for an opinion, give a reasoned recommendation of your own; the mentor's preference is one input.

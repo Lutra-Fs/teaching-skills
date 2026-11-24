@@ -28,6 +28,7 @@ Read before delivering or reviewing any slide deck, after `scripts/lint_slides.p
 - Reading is at the cohort's level: regulator pages, company statements and plain summaries.
 - Every concept a task or check uses was taught first, on its own slide if needed (de-identification methods needed a slide before Check 1).
 - Modelling uses a different case from the one students analyse themselves.
+- Examples use apps the school allows; an app the school blocks (Discord) needs a VPN students cannot use.
 
 ## 4. Standard practice, fewest steps
 
@@ -38,18 +39,19 @@ Read before delivering or reviewing any slide deck, after `scripts/lint_slides.p
 
 ## 5. The teacher can run it
 
-- Every teaching slide has notes the teacher can speak from, and the timings add up to the period. (lint adds up blueprint timings)
+- Every teaching slide has notes the teacher can speak from; timings stay in the blueprint and add up to the period. (lint adds up blueprint timings)
 - Formal or legal terms sit in a small, muted label (for example "Law calls this:"); the notes explain them in plain words.
 
 ## 6. Format and accessibility
 
-- Phrases on separate lines or joined with colons or brackets; the body font everywhere except code. (lint)
+- Phrases on separate lines, with few colons; the body font everywhere except code. (lint)
 - WCAG 2.2 AA: text contrast at least 4.5:1, graphics and UI 3:1; meaning carried by text or shape as well as colour; decorative glyphs `aria-hidden`.
 - Tool limits: in the Slides artifact type, click-to-reveal (`data-build-in`) works only on `position:absolute` elements, so check that every reveal is pinned and test one in Present mode.
 
 ## 7. Change once, change everywhere
 
 - After any change, update every file that repeats it in the same round: notes, lesson plan, teacher guide, student task, Classroom template, quiz, marking guidelines, the previous lesson's "next" slide, and every "Slide N" reference in the plan and Classroom post. Copies drift silently, and the teacher finds out in class.
+- Every file of one lesson keeps the slide order, examples and terms; each worksheet question maps to a teaching slide, and a slide with no question is marked teach-only.
 - **Done when** a search finds the old wording in no file.
 
 When reporting a review, give each finding as slide, problem, fix, grouped by these headings, most consequential first.

@@ -23,7 +23,20 @@ A lesson that repeats last lesson's shape bores students. Keep fixed only the lo
 - **Opening (3 to 5 minutes):** connects to prior learning or unfinished work, then moves straight into this lesson's content. A program question students can already answer from earlier lessons or everyday life is asked here as recall instead of being taught.
 - **Closure (about 3 minutes):** gives the teacher evidence for the next lesson. When time runs short, activity time shrinks and the closure stays. When the main task already gives that evidence (submitted work, checks while circulating), the task is the closure: add no separate exit question, and the notes say where the evidence comes from. When the next lesson opens with a quiz or test, say so at pack-up.
 
+The teacher-talk cap is half the period. The opening theory block stays under 30 minutes of 60, and what does not fit opens the next lesson, where students need it.
+
 Choose each format for this lesson's content: for the opening, a recall question, a puzzle, a client message or a prediction; for the closure, an exit ticket, a hinge question, a show-and-tell, a peer check or a quiz. Read the previous two or three lesson plans or decks first, so an opening, closure, case, task mechanism or question form repeats only for a learning reason. Keep the help routine and slide style stable. For more formats that use the class's devices, browse the NSW Department of Education [Digital Learning Selector](https://app.education.nsw.gov.au/digital-learning-selector) (50+ activities, filtered by Bloom's level, with Google and Microsoft templates).
+
+### Classroom routines
+
+Plans and speaker notes build in the routines that keep one teacher in control of the room:
+
+- One attention signal, the same every time. A gesture stops talk without inviting students to choose.
+- Before each activity the notes say how students work: voice level, alone or in pairs, and which worksheet section.
+- Readiness checks are visual. Ask how long students need, then thumbs up or down.
+- Each activity slide names its worksheet section, so every student can find where the class is.
+- The board stays clear, and the end time sits where students can see it with the projector on.
+- The teacher greets students at the door and answers their bids for connection.
 
 ## 2. Student tasks and questions
 
@@ -37,7 +50,7 @@ Make every task concrete, judgeable and tied to the evidence row of the blueprin
 - **A case or discussion slide** runs as two or three short questions that build on each other, each led by a directive verb at the cohort's level (Stage 6: a NESA glossary verb, for example Identify, then Propose; Stage 4: a plain question with an everyday verb), each answer revealed on a click, about 2 minutes in all, so the teacher sees where students are stuck at each step. A full discussion (Stage 6) asks a NESA Discuss question with both cases on screen from the start; students name the factors (written on the board) and propose the rule, and the teacher names the concept last. A vote followed by a twist reveal is not a discussion.
 - **Objective items** (multiple choice, matching, quiz platforms) have exactly one defensible answer (for a select-all item, one defensible set), with distractors drawn from common mix-ups; use the HSC stem "matches" rather than "mainly".
 - **Task lines** start with the verb.
-- **Research prompts** give one search phrase and one or two checked direct links that together answer every question.
+- **Research prompts** give checked direct links and search phrases that together answer every question; size the reading list to the time available.
 - **Grouping** follows `_teacher_profile.md` and the program wording; flag anything added beyond the program. For group work, say where each student's evidence goes (group Doc, individual comment), the same in plan, slides and Classroom post.
 - **Task follows modelling:** an example type taught only briefly gets a task variant, so students apply it in depth.
 - **Hinge question (optional):** where a concept has a known misconception, place one multiple-choice question mid-lesson, before practice. Each wrong option matches one misconception from the blueprint, and the notes say what the teacher does for each (move on, or re-explain a named way). The whole class answers at once, in about a minute. It differs from the closure: a hinge decides the next five minutes, the closure the next lesson.
@@ -48,7 +61,7 @@ Make every task concrete, judgeable and tied to the evidence row of the blueprin
 
 ## 3. Slides
 
-The deck is how the teacher runs the lesson. Speaker notes are the teacher guide: what to say, timing, expected answers, misconceptions and feedback prompts. **Done when** the deck runs from opening to closure, every teaching slide has notes, and the timings add up to the period.
+The deck is how the teacher runs the lesson. Speaker notes hold what the teacher says and asks, expected answers, misconceptions and feedback prompts. Timings live in the blueprint. **Done when** the deck runs from opening to closure, every teaching slide has notes, and the blueprint timings add up to the period.
 
 **Each slide has one purpose.** Choose its layout from this set (styled per `_brand/theme.md` when present): title or opening, explain, worked example, annotated diagram, comparison, student task, check for understanding, recap, closure. Cut a slide whose purpose you cannot name. Similar purposes look alike; different purposes look different.
 
@@ -69,13 +82,13 @@ The deck is how the teacher runs the lesson. Speaker notes are the teacher guide
 - *Stage 6:* address near-adults directly and precisely, with reasons; use HSC glossary verbs exactly as NESA defines them in tasks and exit questions, with the definition shown the first time in Year 11; keep the course's syllabus terminology.
 - For flagged EAL/D or literacy needs, simplify the sentence, add a visual or word bank, and keep the concept and the assessed thinking.
 
-**Style:** use `_brand/theme.json` role names for colour, so a new palette swaps cleanly. The body font sets all text, including labels, tags, file names and captions; the `code` font is for code. Phrases sit on separate lines or are joined with colons or brackets. Where the tool has a master, set the logo once; where each slide is self-contained, repeat the same small logo in the same place on every slide. Without `_brand/`, use a neutral style with a logo placeholder.
+**Style:** use `_brand/theme.json` role names for colour, so a new palette swaps cleanly. The body font sets all text, including labels, tags, file names and captions; the `code` font is for code. Phrases sit on separate lines; use a colon only where a label introduces its content. Where the tool has a master, set the logo once; where each slide is self-contained, repeat the same small logo in the same place on every slide. Without `_brand/`, use a neutral style with a logo placeholder.
 
-**Revisions:** change a published deck or file with targeted edits to the parts that change, instead of rewriting or republishing the whole thing. Re-read the live file just before each publish: the teacher may be editing it in the page.
+**Revisions:** change a published deck or file with targeted edits to the parts that change, instead of rewriting or republishing the whole thing. Re-read the live file just before each publish, because the teacher may be editing it in the page. When fixing wording, keep the teacher's idea and move a line to the notes rather than delete it. When the teacher names a slide by position ("the research task at the start"), confirm which slide first.
 
 ## 4. Student material
 
-Lean: the task, the steps, what to submit, and where to get help. For Stage 6 that is often a few lines. Answers, model responses, source scaffolding and rationale go in teacher-only notes. When a school or Classroom template exists, fill it. For a standalone resource, `assets/activity-student-resource-pack.md` lists optional modules; use those the task needs.
+Lean: the task, the steps, what to submit, and where to get help. For Stage 6 that is often a few lines. Answers, model responses, source scaffolding and rationale go in teacher-only notes. When a school or Classroom template exists, fill it. Worksheets carry a key-terms box for the lesson's terms. Text for a Google Classroom post goes over as plain text with a note of what to bold: the Classroom editor deletes `<strong>` text with its words and strips numbered lists, so type item numbers by hand. For a standalone resource, `assets/activity-student-resource-pack.md` lists optional modules; use those the task needs.
 
 Set the register by the reader: a task plan for a colleague is concise and professional; a student instruction or lesson script uses the student-facing register.
 

@@ -1,18 +1,12 @@
-# Teacher profile: standing preferences
+# Teacher profile: <name>
 
-Save as `_teacher_profile.md` in the folder that holds your course folders. Read for lesson, resource and unit work. These are this teacher's confirmed preferences, recorded from corrections and post-lesson reflections. They sit below school, mentor and program direction, and above generic defaults. School facts (timetable, period length, mentor pacing, brand) live in each course folder's `_course_context.md` and `_brand/`. Rules that hold for any teacher live in the skill's workflows; this file holds what is particular to this teacher.
-
-When the teacher corrects an output or a lesson retro (`lesson-retro`) finds a reusable rule, propose a one-line addition here and add it, dated, after the teacher agrees. A rule that would hold for any teacher goes to the skill's repository as a proposed change instead: an installed copy of the skill is overwritten on update.
+Save as `_teacher_profile.md` in the folder that holds your course folders. It records where this teacher's practice differs from the plan-teaching defaults; school facts go in each course's `_course_context.md`. When the teacher confirms a new preference (from a correction or `lesson-retro`), add it here, dated. A rule that would hold for any teacher goes to the skill's repository instead, because an installed copy of the skill is overwritten on update.
 
 ## Planning
 
 - 
 
-## Slides and student text
-
-- 
-
-## Files
+## Student text
 
 - 
 
