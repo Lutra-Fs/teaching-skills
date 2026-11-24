@@ -13,14 +13,14 @@ Make the teaching decision before the visual production. Slides made first come 
    - Core is the task wording in this lesson's program row plus that row's syllabus content, quoted from the lock's `content_used` (`curriculum-lock.md`) with its learning components. Preparation notes and earlier reviews are background for the teacher.
    - Success criteria come from the core only. Write them as "I can …" statements (NSW "Sharing success criteria"): short, at the level of the skill, each concrete and observable, each checking something different. Task details such as the number of tries go on the activity slide and in Classroom. The closure checks the core.
    - An activity added beyond the program row (a quiz, a game) shows in the blueprint how many minutes it takes from the core task, and goes in only after the teacher decides (12 Kahoot questions took about 9 minutes from a report).
-   - The teacher may add reasonable Extensions. Mark each `Extension` in the blueprint: it is taught, not assessed, and has no planned time. A harder version of the core task for some students is a stretch tier (`scaffolding-differentiation.md`), with its own time inside the task. An Extension slide carries one idea, and its notes name the trigger (for example "if 8 minutes remain after Part 2"). When the opening runs long, the core activities keep their time and the Extensions go.
+   - The teacher may add reasonable Extensions. Mark each `Extension` in the blueprint: it is taught, not assessed, and has no planned time. A harder version of the core task for some students is a stretch tier (`scaffolding-differentiation.md`), with its own time inside the task. An Extension slide carries one idea, and the blueprint names its trigger (for example "if 8 minutes remain after Part 2"). When the opening runs long, the core activities keep their time and the Extensions go.
 5. **Show the blueprint first** when the unit is new, the lesson is taught for the first time or the teacher asked to see the plan. Otherwise continue to the slides in the same run. In a run with nobody to answer (a batch or scheduled run), make the choice yourself at each stop point, list it as an assumption and continue.
 
 ### Fixed purposes, varied formats
 
 A lesson that repeats last lesson's shape bores students. Keep fixed only the logistics (arrival and set-up time from `_course_context.md`, the teacher-talk cap, pack-up) and the purposes of the two ends:
 
-- **Opening (3 to 5 minutes):** connects to prior learning or unfinished work, then moves straight into this lesson's content. A program question students can already answer from earlier lessons or everyday life is asked here as recall instead of being taught.
+- **Opening (3 to 5 minutes):** connects to prior learning or unfinished work, then moves straight into this lesson's content. A program question students can already answer from earlier lessons or everyday life is asked here as recall instead of being taught. A prediction says so: it starts with "Predict" and asks about an everyday scenario in words students already have. Recall verbs (Define, Explain, Identify) are for content already taught, since students read them as "you should know this". When nothing records whether the opening's content was taught, write the opening so a student with no prior knowledge can still attempt it (a Predict question, or a short source on the page), and teach the answer soon after. Record coverage in `_course_context.md` only when the teacher or mentor states it.
 - **Closure (about 3 minutes):** gives the teacher evidence for the next lesson. When time runs short, activity time shrinks and the closure stays. When the main task already gives that evidence (submitted work, checks while circulating), the task is the closure: add no separate exit question, and the notes say where the evidence comes from. When the next lesson opens with a quiz or test, say so at pack-up.
 
 The teacher-talk cap is half the period. The opening theory block stays under 30 minutes of 60, and what does not fit opens the next lesson, where students need it.
@@ -49,6 +49,7 @@ Make every task concrete, judgeable and tied to the evidence row of the blueprin
 - **Check questions** are answerable from the scenario in front of students, in words they already have. The scenario matches how the real system works: to probe a requirement, ask why it must hold ("Why must the token travel over HTTPS?"), not what happens without it in a system that always enforces it. Students answer in plain words; the teacher then names the formal term. Each question asks about the concept itself, not about the worksheet's headings.
 - **A case or discussion slide** runs as two or three short questions that build on each other, each led by a directive verb at the cohort's level (Stage 6: a NESA glossary verb, for example Identify, then Propose; Stage 4: a plain question with an everyday verb), each answer revealed on a click, about 2 minutes in all, so the teacher sees where students are stuck at each step. A full discussion (Stage 6) asks a NESA Discuss question with both cases on screen from the start; students name the factors (written on the board) and propose the rule, and the teacher names the concept last. A vote followed by a twist reveal is not a discussion.
 - **Objective items** (multiple choice, matching, quiz platforms) have exactly one defensible answer (for a select-all item, one defensible set), with distractors drawn from common mix-ups; use the HSC stem "matches" rather than "mainly".
+- **Why it matters first:** each new concept opens with one real consequence (an app that slows and crashes, a stolen session, a misleading error message) before its mechanism.
 - **Task lines** start with the verb.
 - **Research prompts** give checked direct links and search phrases that together answer every question; size the reading list to the time available.
 - **Grouping** follows `_teacher_profile.md` and the program wording; flag anything added beyond the program. For group work, say where each student's evidence goes (group Doc, individual comment), the same in plan, slides and Classroom post.
@@ -61,7 +62,7 @@ Make every task concrete, judgeable and tied to the evidence row of the blueprin
 
 ## 3. Slides
 
-The deck is how the teacher runs the lesson. Speaker notes hold what the teacher says and asks, expected answers, misconceptions and feedback prompts. Timings live in the blueprint. **Done when** the deck runs from opening to closure, every teaching slide has notes, and the blueprint timings add up to the period.
+The deck is how the teacher runs the lesson. Speaker notes hold what the teacher says and asks, expected answers, misconceptions and feedback prompts. Timings, Extension triggers, fallbacks, sources and design reasons live in the blueprint. **Done when** the deck runs from opening to closure, every teaching slide has notes, and the blueprint timings add up to the period.
 
 **Each slide has one purpose.** Choose its layout from this set (styled per `_brand/theme.md` when present): title or opening, explain, worked example, annotated diagram, comparison, student task, check for understanding, recap, closure. Cut a slide whose purpose you cannot name. Similar purposes look alike; different purposes look different.
 
@@ -72,6 +73,7 @@ The deck is how the teacher runs the lesson. Speaker notes hold what the teacher
 - **Progressive disclosure:** one step per slide, check, then move on. Each slide shows only what has been reached.
 - **Function before name:** when two terms are easy to confuse (for example OAuth and OIDC), show what each does on the diagram students already know, one new part per click, and name them last.
 - **Recall by design:** link to earlier lessons by lighting up the same boxes again on the familiar diagram.
+- **Diagrams where they explain better than words:** when the content is how something works or changes (a process, a mechanism, how two systems behave differently), show it as a diagram revealed one step per click, not a text list.
 - **Relationships by layout:** show a relationship with position (a staggered row, a shared box) instead of a paragraph about it; render the diagram and read it as a student would before delivery.
 - Task instructions stay on screen while students work.
 - Text, code and diagrams are readable from the back of the room (body text at least 24 pt or equivalent).
@@ -88,7 +90,7 @@ The deck is how the teacher runs the lesson. Speaker notes hold what the teacher
 
 ## 4. Student material
 
-Lean: the task, the steps, what to submit, and where to get help. For Stage 6 that is often a few lines. Answers, model responses, source scaffolding and rationale go in teacher-only notes. When a school or Classroom template exists, fill it. Worksheets carry a key-terms box for the lesson's terms. Text for a Google Classroom post goes over as plain text with a note of what to bold: the Classroom editor deletes `<strong>` text with its words and strips numbered lists, so type item numbers by hand. For a standalone resource, `assets/activity-student-resource-pack.md` lists optional modules; use those the task needs.
+Lean: the task, the steps, what to submit, and where to get help. For Stage 6 that is often a few lines. Answers, model responses, source scaffolding and rationale go in teacher-only notes. When a school or Classroom template exists, fill it. Worksheets carry a key-terms box with the definitions their questions depend on (essential without devices), and each question follows the order of the slides it belongs to. Text for a Google Classroom post goes over as plain text with a note of what to bold: the Classroom editor deletes `<strong>` text with its words and strips numbered lists, so type item numbers by hand. For a standalone resource, `assets/activity-student-resource-pack.md` lists optional modules; use those the task needs.
 
 Set the register by the reader: a task plan for a colleague is concise and professional; a student instruction or lesson script uses the student-facing register.
 
@@ -97,12 +99,13 @@ Set the register by the reader: a task plan for a colleague is concise and profe
 1. Run `scripts/lint_slides.py <deck folder or file> --period <minutes>` on slides and student files when the tool is available; its usage is in its first lines, so there is no need to read the rest of its source. It counts words per slide against the purpose budget, finds separator glyphs, monospace outside code, small fonts and leading words in questions, adds up the timings and flags answer-like text in student files. Treat a word-count warning as a question (does this slide's purpose need the words?) and fix the rest.
 2. Check the three kinds of slop the script cannot see:
    - **Visual slop:** decoration, identical card layouts on every slide, unreadable code or contrast.
-   - **Pedagogical slop:** a vague learning intention, activities that produce no evidence for the blueprint, explanation with no practice or check, more phases than the period holds.
-   - **Content slop:** invented cases, outcome codes, statistics or technical details; examples the answer key gets wrong; terms used before they are taught. List every term the learning intention, tasks and checks depend on, and point to where each is taught (this lesson or a named earlier one); this applies to plans and worksheets without slides too.
+   - **Pedagogical slop:** a vague learning intention, activities that produce no evidence for the blueprint, explanation with no practice or check, a concept with no stated consequence, more phases than the period holds.
+   - **Content slop:** invented cases, outcome codes, statistics or technical details; examples the answer key gets wrong; terms used before they are taught. List every term the learning intention, tasks and checks depend on, and point to where each is taught (this lesson or a named earlier one); this applies to plans and worksheets without slides too, and to the Do Now.
 3. Apply every heading of `slide-review.md` to every slide and its notes.
-4. Walk the lesson once as the teacher: distribution, help requests, transitions and one teacher's capacity. Define a useful stop point before the closure and one early-finisher task. A fallback goes in the speaker notes, and only for a named, specific risk (a new platform, a lesson outside the room).
+4. Walk the lesson once as the teacher: distribution, help requests, transitions and one teacher's capacity. Define a useful stop point before the closure and one early-finisher task. A fallback goes in the blueprint, and only for a named, specific risk (a new platform, a lesson outside the room).
+5. Check across files: plan, slides, notes, worksheet, answer key and Classroom post keep the same sections in the same order, with the same content, examples and terms. Slides may show less, never something different. A lesson adapted to another mode (paper, no devices) keeps a way for students to answer each task.
 
-**Done when** lint exits clean or each remaining warning has a stated reason, every slide-review heading has been applied, and the walk-through found nothing the teacher would have to fix.
+**Done when** lint exits clean or each remaining warning has a stated reason, every slide-review heading has been applied, the files agree, and the walk-through found nothing the teacher would have to fix.
 
 ## 6. Review-only requests
 

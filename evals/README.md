@@ -5,10 +5,11 @@ Cases for `claude plugin eval`, one folder per skill (`plan-teaching/`). Each ca
 Run from the repo root:
 
 ```
-claude plugin eval . --scaffold --allow-tools Write Edit Bash --trust-plugin --runs 3 -j 4
+claude plugin eval . --scaffold --allow-tools Write Edit Bash --trust-plugin --runs 3 -j 4 --model haiku --judge-model haiku
 ```
 
 - `--scaffold` is needed, or the runs see an empty folder.
 - `--allow-tools Write Edit Bash` is needed, or the runs only get read-only tools and cannot write plans or decks.
 - Bash runs inside the sandbox, which on Linux needs `bubblewrap` and `socat`.
+- Keep `--model haiku --judge-model haiku`: a Sonnet judge costs about 15 times more.
 - Add `--ablation none` to skip the no-plugin baseline arm, or `--case <glob>` to run one case.

@@ -15,6 +15,10 @@ Executable code, tests, documentation, secure design decisions, debugging and in
 
 Software Engineering content, assessment and artefacts come from this course's own syllabus; Enterprise Computing is a separate course.
 
+## Code across languages
+
+When a task uses a programming language students have not been taught, put a syntax mapping table on the task page, with the taught language beside the new one. Run both versions before class, because a literal port can behave differently (in PHP, `(int)"abc"` is silently 0).
+
 ## Continuity artefacts
 
 Repository, branch or file state; environment and dependencies; data or API contract; code style and naming; test results; issue log; design documentation; authorship evidence; a runnable handoff state.

@@ -4,7 +4,7 @@ Read before delivering or reviewing any slide deck, after `scripts/lint_slides.p
 
 ## 1. Every word helps students now
 
-- Labels name the content for students ("We do"); design notes for the teacher go in the speaker notes.
+- Labels name the content for students ("We do"); design notes for the teacher go in the plan.
 - The heading or question carries the instruction; a second line restating it goes.
 - The slide holds only what the whole class needs to see now; what the student document or Classroom post already says stays there. (One deck shrank from 8 slides to 3.)
 - Reminders cover only what students must do themselves; the platform's automatic behaviour (Google Docs saving) needs none.
@@ -21,7 +21,7 @@ Read before delivering or reviewing any slide deck, after `scripts/lint_slides.p
 - Each question is concrete and answerable from what is on the slide, in words students have; the teacher names the formal term after they answer.
 - Success-criteria slides show the blueprint's "I can …" statements word for word; success-criteria and closure slides check the core; Extension content is labelled "Extension" on its slide.
 - At the moment a question is asked, the screen shows only the question and what students need to answer it. Check every click-reveal for this.
-- Progressive disclosure: each slide shows only the step the lesson has reached. The lesson's agenda and later steps live in the speaker notes, the title slide included.
+- Progressive disclosure: each slide shows only the step the lesson has reached. The lesson's agenda and later steps live in the plan, the title slide included.
 
 ## 3. Students can do it
 
