@@ -9,7 +9,6 @@ Read for a scaffolding, fading or differentiation decision: worked examples, pro
 | Scaffolding | Temporary support, calibrated to current evidence, that lets students take part in target thinking they cannot yet do alone. A resource becomes a scaffold through how it is used and adapted. |
 | Fading | Evidence-triggered transfer of responsibility to students; support may reduce, change form or be restored. |
 | Differentiation | Varying access, process, support, complexity or response from learner evidence while the goal stays the same. |
-| UDL | Designing access into the environment for anticipated barriers. |
 | Reasonable adjustment | A confirmed access measure from the school's process; it stays until that process changes it. |
 | Gradual release | An architecture (model, guide, release) that can carry scaffolding toward independence. |
 

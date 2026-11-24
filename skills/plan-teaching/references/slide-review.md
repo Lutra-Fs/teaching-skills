@@ -51,7 +51,7 @@ Read before delivering or reviewing any slide deck, after `scripts/lint_slides.p
 ## 7. Change once, change everywhere
 
 - After any change, update every file that repeats it in the same round: notes, lesson plan, teacher guide, student task, Classroom template, quiz, marking guidelines, the previous lesson's "next" slide, and every "Slide N" reference in the plan and Classroom post. Copies drift silently, and the teacher finds out in class.
-- Every file of one lesson keeps the slide order, examples and terms; each worksheet question maps to a teaching slide, and a slide with no question is marked teach-only.
+- Every file of one lesson keeps the slide order, examples and terms; each worksheet question maps to a teaching slide, and a slide with no question is marked teach-only. Slides may show less than the other files, never something different. A lesson adapted to another mode (paper, no devices) keeps a way for students to answer each task.
 - **Done when** a search finds the old wording in no file.
 
 When reporting a review, give each finding as slide, problem, fix, grouped by these headings, most consequential first.
