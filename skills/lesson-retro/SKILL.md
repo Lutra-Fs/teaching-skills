@@ -17,7 +17,7 @@ Turn what happened in a taught lesson into changes the next lesson, the teacher'
 
 ## Steps
 
-1. **Find the plan.** Read the lesson plan and materials in its folder (the plan from `plan-secondary-teaching`, or the school's template), and `_course_context.md`. Without a plan, ask for the lesson's intention and phases in two lines.
+1. **Find the plan.** Read the lesson plan and materials in its folder (the plan from `plan-teaching`, or the school's template), and `_course_context.md`. Without a plan, ask for the lesson's intention and phases in two lines.
 2. **Ask the reflection in one message**, the teacher answering only the dimensions that apply, in a few words each:
    1. **Plan against actual:** where the class got to, which phase ran long or short, what was cut.
    2. **Learning:** what student work, answers or exit checks show students can now do, and what is still shaky.

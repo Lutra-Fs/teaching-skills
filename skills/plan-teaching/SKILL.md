@@ -1,11 +1,11 @@
 ---
-name: plan-secondary-teaching
+name: plan-teaching
 description: "NSW secondary teaching for Mathematics and TAS courses (Software Engineering, Computing, Technology, D&T): lessons and slides, units and pacing, assessment and marking, syllabus lookup. Use whenever a teacher or pre-service teacher prepares, adapts or reviews teaching for a NSW class, including \"help with tomorrow's lesson\" or \"make the slides\"."
 metadata:
   version: "0.8.1"
 ---
 
-# Plan Secondary Teaching
+# Plan Teaching
 
 Produce the teaching decision or the usable material the teacher asked for, inside the school's adopted program, so the teacher has as little to repair as possible.
 

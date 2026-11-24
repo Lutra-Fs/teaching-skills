@@ -1,4 +1,0 @@
-interface:
-  display_name: "Plan NSW Mathematics & TAS"
-  short_description: "Turn NSW Math/TAS curriculum into teaching decisions"
-  default_prompt: "Use $plan-secondary-teaching to read the teacher profile and course context, pick the one workflow the request needs, and produce the usable teaching decision or material; for a lesson, write the blueprint first, then a followable slide deck and lean student task."

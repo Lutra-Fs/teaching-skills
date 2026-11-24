@@ -1,4 +1,4 @@
-# Plan Secondary Teaching maintenance contract
+# Plan Teaching maintenance contract
 
 ## Intent and shape
 

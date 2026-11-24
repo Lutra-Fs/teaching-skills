@@ -6,7 +6,7 @@ Agent skills for secondary teaching in New South Wales. They work from the schoo
 
 | Skill | Use it for |
 |---|---|
-| `plan-secondary-teaching` | Lessons and slides, units and pacing, assessment and marking, syllabus lookup, and materials derived from an existing lesson (practice sheets, versions, quizzes, marking guides). Deep support for Mathematics 7-12 and TAS courses. |
+| `plan-teaching` | Lessons and slides, units and pacing, assessment and marking, syllabus lookup, and materials derived from an existing lesson (practice sheets, versions, quizzes, marking guides). Deep support for Mathematics 7-12 and TAS courses. |
 | `lesson-retro` | Reflection after a lesson is taught: plan against actual, learning, materials, and routing each finding to class pace, the teacher profile, the next lesson or accreditation evidence. |
 | `relief-teaching` | Relief days from both sides: covering someone else's class as a casual (day sheet, no-plan lesson, handover note), and leaving your own class for a reliever (relief pack). |
 | `accreditation-evidence` | NESA Proficient Teacher accreditation read against the AITSL Standards: evidence log, choosing and annotating 5-8 items, coverage, observation, deadlines. |
@@ -31,7 +31,7 @@ Other agents: copy or link a folder under `skills/` into the agent's skills dire
 The skills read two files you keep with your teaching material, outside this repository:
 
 - `_course_context.md` in each course folder: period length, timetable, mentor direction and the curriculum lock.
-- `_teacher_profile.md` in the folder above your course folders: your standing preferences. Start from `skills/plan-secondary-teaching/assets/teacher-profile-template.md`.
+- `_teacher_profile.md` in the folder above your course folders: your standing preferences. Start from `skills/plan-teaching/assets/teacher-profile-template.md`.
 
 ## Status
 
