@@ -2,3 +2,5 @@ schema_version: "1.1"
 name: lesson-oauth-mfa-fit
 expected_outcome: |
   Recognises the content does not fit one 60-minute period and proposes a split into consecutive single lessons.
+context:
+  scaffold_script: scaffold.sh

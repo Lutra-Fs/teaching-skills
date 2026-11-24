@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: lesson-memory-do-now
+expected_outcome: |
+  A paper-based 60-minute lesson whose Do Now works whether or not students met the content, with concepts introduced through consequences, notes that hold only the script, and a worksheet that carries its own definitions.
+context:
+  scaffold_script: scaffold.sh
