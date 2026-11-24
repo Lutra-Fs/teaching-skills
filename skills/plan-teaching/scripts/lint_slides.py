@@ -15,6 +15,8 @@ Checks:
   - monospace fonts used outside code (labels, tags, captions)
   - questions with words that presuppose an answer (still, fully, only, really, even, just, already)
   - separator glyphs between phrases (·, •, |) in on-screen text
+  - more than two colons on one slide's screen text (use few colons)
+  - timings in speaker notes (timings belong in the blueprint)
   - small fonts in HTML slides (positioned footers and logos excluded)
   - timeline minutes in a blueprint table add up to the period
   - answer-like text in student-facing files (name contains "student",
@@ -39,6 +41,8 @@ MONO = re.compile(r"monospace|courier|consolas|menlo|monaco|source code|jetbrain
 CODEISH = re.compile(r"[(){}\[\]=<>;:/\\_.$#@*+-]|^\w+\(|\d")
 LEADING = re.compile(r"\b(still|fully|only|really|even|just|already)\b", re.I)
 STUDENT_NAME = re.compile(r"student|task|template|worksheet|handout", re.I)
+COLON = re.compile(r"(?<![\d/]):(?![\d/])")
+TIMING = re.compile(r"\b\d{1,3}\s*(?:min|mins|minutes)\b|\b\d{1,2}:\d{2}\s*[–\-—]\s*\d{1,2}:\d{2}|\(\s*\d{1,3}\s*[–\-—]\s*\d{1,3}\s*\)", re.I)
 RANGE = re.compile(r"(\d{1,2}:\d{2}|\d{1,3})\s*(?:min)?\s*[–\-—]\s*(\d{1,2}:\d{2}|\d{1,3})")
 
 
@@ -73,7 +77,7 @@ def html_slide(raw):
 
 
 def md_slides(raw):
-    """Split a Markdown deck into (title, on-screen text) pairs."""
+    """Split a Markdown deck into (title, on-screen text, notes text) triples."""
     heading = re.compile(r"(?mi)^#{1,3}\s*slide\b")
     if heading.search(raw):
         parts = [p for p in re.split(r"(?mi)^(?=#{1,3}\s*slide\b)", raw) if heading.match(p)]
@@ -84,14 +88,16 @@ def md_slides(raw):
         part = re.sub(r"(?m)^---\s*$", "", part)
         if not part.strip():
             continue
-        screen, in_notes = [], False
+        screen, notes, in_notes = [], [], False
         for line in part.splitlines():
             if re.match(r"^\s*[#>*_]*\s*(speaker|teacher|presenter)?\s*(notes?|script)\b|^\s*[#>*_]*\s*讲稿|^\s*<aside|^\s*<!--", line, re.I):
                 in_notes = True
-            if not in_notes and not re.match(r"^\s*\|?\s*:?-{3,}", line):
+            if in_notes:
+                notes.append(line)
+            elif not re.match(r"^\s*\|?\s*:?-{3,}", line):
                 screen.append(line)
         title = next((l.strip("# ").strip() for l in part.splitlines() if l.strip()), "")
-        slides.append((title[:50], "\n".join(screen[1:])))
+        slides.append((title[:50], "\n".join(screen[1:]), "\n".join(notes)))
     return slides
 
 
@@ -148,6 +154,9 @@ def lint_text_slide(label, screen, args, problems, title=""):
         m = LEADING.search(q)
         if m:
             problems.append(f"{label}: question presupposes an answer (“{m.group(1)}”): “{q.strip()[:60]}”")
+    colons = sum(len(COLON.findall(l)) for l in prose.splitlines() if not l.lstrip().startswith("|"))
+    if colons > 2:
+        problems.append(f"{label}: {colons} colons on screen; use few colons (two plain sentences or separate lines)")
     for line in prose.splitlines() or [prose]:
         if line.lstrip().startswith("|"):
             continue  # Markdown table row, not slide prose
@@ -155,6 +164,12 @@ def lint_text_slide(label, screen, args, problems, title=""):
         if m:
             problems.append(f"{label}: separator glyph in “{line.strip()[:60]}”")
             break
+
+
+def check_notes(label, notes, problems):
+    m = TIMING.search(notes or "")
+    if m:
+        problems.append(f"{label}: timing in speaker notes (“{m.group(0)}”); timings belong in the blueprint")
 
 
 def lint_file(path, args, problems):
@@ -172,15 +187,13 @@ def lint_file(path, args, problems):
         for size, text in small:
             if size < args.min_px:
                 problems.append(f"{label}: {size:g}px text “{text}” (min {args.min_px}px)")
-        if notes:
-            for m in RANGE.finditer(notes):
-                if args.period < minutes(m.group(2)) <= 180:
-                    problems.append(f"{label}: notes mention minute {m.group(2)} beyond the period")
+        check_notes(label, notes, problems)
         return
     if path.suffix.lower() in (".md", ".markdown", ".txt"):
         if re.search(r"(?mi)^#{1,3}\s*slide\b", raw):
-            for i, (title, screen) in enumerate(md_slides(raw), 1):
+            for i, (title, screen, notes) in enumerate(md_slides(raw), 1):
                 lint_text_slide(f"{label} slide {i} ({title})", screen, args, problems, title)
+                check_notes(f"{label} slide {i} ({title})", notes, problems)
         check_timeline(raw, args.period, label, problems)
     if STUDENT_NAME.search(path.name) and not re.search(r"teacher|answer|key", path.name, re.I):
         for no, line in enumerate(raw.splitlines(), 1):

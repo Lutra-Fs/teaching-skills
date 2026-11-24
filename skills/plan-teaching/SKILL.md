@@ -2,7 +2,7 @@
 name: plan-teaching
 description: "NSW secondary teaching for Mathematics and TAS courses (Software Engineering, Computing, Technology, D&T): lessons and slides, units and pacing, assessment and marking, syllabus lookup. Use whenever a teacher or pre-service teacher prepares, adapts or reviews teaching for a NSW class, including \"help with tomorrow's lesson\" or \"make the slides\"."
 metadata:
-  version: "0.9.0"
+  version: "0.9.1"
 ---
 
 # Plan Teaching
@@ -10,6 +10,8 @@ metadata:
 Produce the teaching decision or the usable material the teacher asked for, inside the school's adopted program, so the teacher has as little to repair as possible.
 
 ## 1. Read the context first
+
+Find each file below by walking up. Start in the lesson folder and check every parent folder in turn, up to the teaching root (the folder that holds the subject folders, often with an `AGENTS.md`). List the folders you checked; the nearest copy wins. A file a few levels up is the normal case, not a missing one.
 
 1. `_teacher_profile.md` in or above the course folder: where this teacher's practice differs from the defaults here, learned from their corrections. It is the teacher's own file and stays out of this skill. When it is missing, offer to start one from `assets/teacher-profile-template.md`.
 2. `_course_context.md` in or above the lesson folder: school facts such as period length, timetable, mentor direction and the curriculum lock. `_brand/` beside it or in a folder above holds slide style.
