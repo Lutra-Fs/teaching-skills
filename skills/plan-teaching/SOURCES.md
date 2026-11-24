@@ -129,3 +129,5 @@ Use original studies for academic claims; user-supplied AI conversations are ide
 2026-11-25 (v0.9.3): the program sets the sequence and the core content, not every activity (Bill, after the Lesson 9 eval kept the program's Define Do Now verbatim). A program item that would not work for the class, or one a better resource or activity covers, is redesigned and marked `proposed` beside the original; content and sequence stay, and faculty-led changes stay proposals.
 
 2026-11-25 (v0.9.4): Lesson 11 retro (Bill, 25 Nov): before starting or changing an activity, the attention signal, a settled class, then one short instruction; after a gap or a missed lesson, a short recall attempt with a ready teacher-retell slide for an earlier case (mentor advice). Deduplicated the cross-file check (now only in `slide-review.md` section 7) and the UDL definition (now only in `frameworks-quality.md`), after reviewing an external pruning suggestion.
+
+2026-11-25 (v0.9.5): slide headings are short topic titles ("Threads", "Mitigation: Lock"); a claim sentence goes in the body (Bill, on the Lesson 10 deck). Replaces "the headline states the point".
