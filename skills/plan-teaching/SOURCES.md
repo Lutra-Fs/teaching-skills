@@ -131,3 +131,4 @@ Use original studies for academic claims; user-supplied AI conversations are ide
 2026-11-25 (v0.9.4): Lesson 11 retro (Bill, 25 Nov): before starting or changing an activity, the attention signal, a settled class, then one short instruction; after a gap or a missed lesson, a short recall attempt with a ready teacher-retell slide for an earlier case (mentor advice). Deduplicated the cross-file check (now only in `slide-review.md` section 7) and the UDL definition (now only in `frameworks-quality.md`), after reviewing an external pruning suggestion.
 
 2026-11-25 (v0.9.5): slide headings are short topic titles ("Threads", "Mitigation: Lock"); a claim sentence goes in the body (Bill, on the Lesson 10 deck). Replaces "the headline states the point".
+2026-11-25 (v0.9.6): section slide headings read "Part: This slide" ("Race conditions: Threads"), no separate part label, never two colons; opening, task and exit slides keep plain titles (Bill, Lesson 10 deck).
