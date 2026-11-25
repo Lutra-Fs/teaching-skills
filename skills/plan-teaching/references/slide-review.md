@@ -19,7 +19,7 @@ Read before delivering or reviewing any slide deck, after `scripts/lint_slides.p
 - Questions are neutral. Words that presuppose an answer (still, fully, only, really, even, just, already) come out. (lint flags them in questions)
 - Each question is open and led by a directive verb at the cohort's level: "Assess how ACL responded after the breach." For Stage 6 use HSC glossary verbs and ask for more than recall; for Stage 4 use everyday verbs in plain questions, with no bold key words and no abstract verbs (Assess, Justify). Task lines start with the verb too.
 - Each question is concrete and answerable from what is on the slide, in words students have; the teacher names the formal term after they answer.
-- Success-criteria slides show the blueprint's "I can …" statements word for word; success-criteria and closure slides check the core. Continuation and Extension work appears as `workflow-lesson.md` section 1 step 4 places it.
+- Success-criteria slides show the blueprint's "I can …" statements word for word; success-criteria and closure slides check the core. A continuation step is the last numbered step of the main task, written like the others. Fast-finisher prompts reach the screen only after a student finishes, on a post-core slide labelled "Extension" (or the `_teacher_profile.md` heading).
 - At the moment a question is asked, the screen shows only the question and what students need to answer it. Check every click-reveal for this.
 - Progressive disclosure: each slide shows only the step the lesson has reached. The lesson's agenda and later steps live in the plan, the title slide included.
 
