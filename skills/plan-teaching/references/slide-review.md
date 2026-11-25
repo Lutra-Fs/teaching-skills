@@ -9,7 +9,7 @@ Read before delivering or reviewing any slide deck, after `scripts/lint_slides.p
 - The slide holds only what the whole class needs to see now; what the student document or Classroom post already says stays there. (One deck shrank from 8 slides to 3.)
 - Reminders cover only what students must do themselves; the platform's automatic behaviour (Google Docs saving) needs none.
 - Headings are short topic titles that name the content, never a body sentence promoted to a heading ("One line of code is really three steps"). The claim goes in the body. Inside a lesson section a heading reads "Part: This slide" ("Race conditions: Threads"), with no separate part label above it and never two colons. The Do Now, learning intention, task and exit question slides keep plain titles.
-- No kickers or secondary labels ("From Lesson 5:", a card label repeating the card). Two labels stay: the "Extension" tag (section 2) and the formal-term label (section 5). A term the cohort has not met is still defined on the slide.
+- No kickers or secondary labels ("From Lesson 5:", a card label repeating the card, "If you finish early"). Two labels stay: the formal-term label (section 5) and, on a separate post-core slide reached on its trigger, "Extension" (or the heading in `_teacher_profile.md`, section 2). A term the cohort has not met is still defined on the slide.
 - Sentences read as a person wrote them: keep "that" in object clauses; no stacked noun compounds, nouns used as verbs, inanimate subjects doing actions, long subject-verb gaps or paired slogans. Prefer a human subject. The mentor's own sentences and genre forms ("The app must …") stay.
 - Earlier lessons come back through the design: the same boxes lit up again on the familiar diagram.
 - The opening and closure formats differ from the previous two or three lessons, unless the notes give a learning reason.
@@ -19,7 +19,7 @@ Read before delivering or reviewing any slide deck, after `scripts/lint_slides.p
 - Questions are neutral. Words that presuppose an answer (still, fully, only, really, even, just, already) come out. (lint flags them in questions)
 - Each question is open and led by a directive verb at the cohort's level: "Assess how ACL responded after the breach." For Stage 6 use HSC glossary verbs and ask for more than recall; for Stage 4 use everyday verbs in plain questions, with no bold key words and no abstract verbs (Assess, Justify). Task lines start with the verb too.
 - Each question is concrete and answerable from what is on the slide, in words students have; the teacher names the formal term after they answer.
-- Success-criteria slides show the blueprint's "I can …" statements word for word; success-criteria and closure slides check the core; Extension content is labelled "Extension" on its slide.
+- Success-criteria slides show the blueprint's "I can …" statements word for word; success-criteria and closure slides check the core. Continuation steps sit unmarked at the end of the main numbered list; fast-finisher prompts stay in the blueprint until someone finishes, and any separate post-core Extension slide carries "Extension" (or the `_teacher_profile.md` heading) only when reached.
 - At the moment a question is asked, the screen shows only the question and what students need to answer it. Check every click-reveal for this.
 - Progressive disclosure: each slide shows only the step the lesson has reached. The lesson's agenda and later steps live in the plan, the title slide included.
 

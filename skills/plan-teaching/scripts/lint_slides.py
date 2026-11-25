@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 """Mechanical checks for lesson slides, blueprints and student files.
 
-Usage: lint_slides.py PATH [PATH ...] [--period 60] [--talk-words 40] [--work-words 80] [--min-px 28]
+Usage: lint_slides.py PATH [PATH ...] [--period 60] [--talk-words 40] [--work-words 80] [--code-lines 15] [--min-px 28]
 
 PATH may be a Slides-artifact project folder (deck.json + slides/*.html),
 a single .html slide, a Markdown deck/plan, or a folder of these.
@@ -20,7 +20,7 @@ Checks:
   - small fonts in HTML slides (positioned footers and logos excluded)
   - timeline minutes in a blueprint table add up to the period
   - answer-like text in student-facing files (name contains "student",
-    "task", "template" or "worksheet")
+    "task", "template", "worksheet" or "handout")
 Exit status 1 when any problem is found. It cannot judge teaching quality:
 slop, previews of later steps and question quality still need a read.
 """

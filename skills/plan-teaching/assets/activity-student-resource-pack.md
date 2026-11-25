@@ -41,10 +41,6 @@ You will show this by:
 
 - 
 
-### If you finish early
-
-- 
-
 ### If you need help
 
 - Check:
@@ -73,7 +69,7 @@ Attach an answer key, worked solution, model, rubric excerpt or expected-respons
 | Time boxes/timer | |
 | Attention/transition signal | |
 | Teacher visibility/supervision | |
-| Waiting/early-finisher work | |
+| Fast-finisher plan (final numbered step, or held in teacher notes until finished) | |
 | Submission/display | |
 | Cleanup/pack-up | |
 | Low-tech/resource-failure backup | |

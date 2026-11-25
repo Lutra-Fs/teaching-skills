@@ -26,7 +26,7 @@ The task must elicit the required knowledge or skill itself, beyond the topic. D
 - **Transparency:** students understand purpose, conditions and quality.
 - **Workload and timing:** timing supports learning, and marking and feedback are manageable.
 - **Objectivity:** criteria focus on relevant evidence.
-- **Feedback use:** students have protected time to act on feedback.
+- **Feedback use:** students have protected time to act on feedback, and the task plans how they use it: a rewrite of the response, or a similar task that applies the same point. Where a grade would stop the reading, the feedback reaches students first and the grade after they have responded to it.
 
 ## Rubrics and marking guidance
 
@@ -37,6 +37,10 @@ Write criteria with observable performance descriptions, drawing language from o
 - Keep criteria distinct and proportionate to the target thinking.
 - List acceptable alternative evidence or solutions.
 - Test: another teacher reaches a similar judgement from the task, rubric and work sample alone.
+
+### Feedback delivery
+
+Individual written comments are one mode, chosen when the task warrants them. Three others carry the same points at lower cost: whole-class verbal feedback on the patterns the work shows; coded annotations, where the codes are taught to the class before first use and suit students who can read a code without the sentence beside it; and in-the-moment feedback while circulating. The plan names the mode and what each mode asks students to do next.
 
 ## Exemplars and audits of teaching artifacts
 

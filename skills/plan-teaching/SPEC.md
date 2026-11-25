@@ -42,7 +42,7 @@ Track tokens per run in the benchmark. Target: a lesson eval run of 75k tokens o
 
 ## Validation and limitations
 
-Run the skill-writer structural validator and check local reference/asset links. Static scenario walkthroughs assess instruction coverage only, not generated lesson quality. Behavioural comparison and mentor/classroom use are needed before claiming better pacing, teaching outcomes or time savings. Track teacher repair effort and sequence/material defects, not document length alone.
+Run the `skill-creator` structural validator (`quick_validate.py`) and check local reference/asset links. Static scenario walkthroughs assess instruction coverage only, not generated lesson quality. Behavioural comparison and mentor/classroom use are needed before claiming better pacing, teaching outcomes or time savings. Track teacher repair effort and sequence/material defects, not document length alone.
 
 Keep changes reversible with a pre-edit snapshot. Existing local source paths are convenience references, not guaranteed resources on another machine. No automatic cross-session state or physical classroom checks are implied.
 

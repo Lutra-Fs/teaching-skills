@@ -26,7 +26,7 @@ These failures informed pacing and material checks; the resulting procedures are
 
 ## Previously bundled practitioner sources
 
-Doreen-derived actions (visible next step, concise language, dignity/boundaries, prevention, response, documentation/restoration, routines and resource visibility) are retained in practice-operability-resources.md by classroom decision. They remain practice lenses, not policy authority. Original source corpus was not re-audited in this refactor.
+Doreen-derived actions (visible next step, concise language, dignity/boundaries, prevention, response, documentation/restoration, routines and resource visibility) are retained by classroom decision in `references/workflow-lesson.md` (classroom rules) and `references/resources-external.md` (resource gate); the former `practice-operability-resources.md` was folded into both at v0.3.0. They remain practice lenses, not policy authority. Original source corpus was not re-audited in this refactor.
 
 The supplied synthesis referenced these discussions:
 
@@ -132,3 +132,4 @@ Use original studies for academic claims; user-supplied AI conversations are ide
 
 2026-11-25 (v0.9.5): slide headings are short topic titles ("Threads", "Mitigation: Lock"); a claim sentence goes in the body (Bill, on the Lesson 10 deck). Replaces "the headline states the point".
 2026-11-25 (v0.9.6): section slide headings read "Part: This slide" ("Race conditions: Threads"), no separate part label, never two colons; opening, task and exit slides keep plain titles (Bill, Lesson 10 deck).
+2026-11-25 (v0.9.7): merged Bill's local edits (continuation and Extension work unannounced until reached; feedback use and Feedback delivery modes; Library path; lint handout files; SPEC validator name). Their trigger and fast-finisher prompts sit in the blueprint, keeping the v0.9.2 rule that notes hold no triggers.
