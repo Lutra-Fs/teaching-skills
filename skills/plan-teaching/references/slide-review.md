@@ -5,7 +5,7 @@ Read before delivering or reviewing any slide deck, after `scripts/lint_slides.p
 ## 1. Every word helps students now
 
 - Labels name the content for students ("We do"); design notes for the teacher go in the plan.
-- The heading or question carries the instruction; a second line restating it goes.
+- On a task or question slide, the question or task line carries the instruction; a second line restating it goes.
 - The slide holds only what the whole class needs to see now; what the student document or Classroom post already says stays there. (One deck shrank from 8 slides to 3.)
 - Reminders cover only what students must do themselves; the platform's automatic behaviour (Google Docs saving) needs none.
 - Headings are short topic titles that name the content, never a body sentence promoted to a heading ("One line of code is really three steps"). The claim goes in the body. Inside a lesson section a heading reads "Part: This slide" ("Race conditions: Threads"), with no separate part label above it and never two colons. The Do Now, learning intention, task and exit question slides keep plain titles.

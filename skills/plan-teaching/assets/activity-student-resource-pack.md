@@ -69,7 +69,7 @@ Attach an answer key, worked solution, model, rubric excerpt or expected-respons
 | Time boxes/timer | |
 | Attention/transition signal | |
 | Teacher visibility/supervision | |
-| Fast-finisher plan (final numbered step, or held in teacher notes until finished) | |
+| Fast-finisher plan (final numbered step, or held in the blueprint until a student finishes) | |
 | Submission/display | |
 | Cleanup/pack-up | |
 | Low-tech/resource-failure backup | |
